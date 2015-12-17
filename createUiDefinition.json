@@ -105,7 +105,24 @@
             ],
             "constraints": {
               "allowedSizes": [],
-              "excludedSizes": []
+              "excludedSizes": [],
+              "allowedValues": [
+                "Standard_A0",
+                "Standard_A1",
+                "Standard_A2",
+                "Standard_A3",
+                "Standard_A4",
+                "Standard_A7",
+                "Standard_D1",
+                "Standard_D2",
+                "Standard_D3",
+                "Standard_D4",
+                "Standard_DS1",
+                "Standard_DS2",
+                "Standard_DS3",
+                "Standard_DS4",
+                "Standard_DS13"
+              ]
             },
             "osPlatform": "Linux",
             "imageReference": {
@@ -129,44 +146,20 @@
                   "value": 1
                 },
                 {
+                  "label": "2",
+                  "value": 2
+                },
+                {
                   "label": "3",
                   "value": 3
                 },
                 {
+                  "label": "4",
+                  "value": 4
+                },
+                {
                   "label": "5",
                   "value": 5
-                },
-                {
-                  "label": "7",
-                  "value": 5
-                },
-                {
-                  "label": "9",
-                  "value": 5
-                },
-                {
-                  "label": "10",
-                  "value": 10
-                },
-                {
-                  "label": "15",
-                  "value": 10
-                },
-                {
-                  "label": "20",
-                  "value": 20
-                },
-                {
-                  "label": "25",
-                  "value": 25
-                },
-                {
-                  "label": "30",
-                  "value": 30
-                },
-                {
-                  "label": "40",
-                  "value": 40
                 }
               ]
             }
@@ -184,7 +177,24 @@
             ],
             "constraints": {
               "allowedSizes": [],
-              "excludedSizes": []
+              "excludedSizes": [],
+              "allowedValues": [
+                "Standard_A0",
+                "Standard_A1",
+                "Standard_A2",
+                "Standard_A3",
+                "Standard_A4",
+                "Standard_A7",
+                "Standard_D1",
+                "Standard_D2",
+                "Standard_D3",
+                "Standard_D4",
+                "Standard_DS1",
+                "Standard_DS2",
+                "Standard_DS3",
+                "Standard_DS4",
+                "Standard_DS13"
+              ]
             },
             "osPlatform": "Linux",
             "imageReference": {
@@ -227,24 +237,20 @@
                   "value": 0
                 },
                 {
+                  "label": "2",
+                  "value": 2
+                },
+                {
                   "label": "3",
                   "value": 3
                 },
                 {
+                  "label": "4",
+                  "value": 4
+                },
+                {
                   "label": "5",
                   "value": 5
-                },
-                {
-                  "label": "10",
-                  "value": 10
-                },
-                {
-                  "label": "20",
-                  "value": 20
-                },
-                {
-                  "label": "50",
-                  "value": 50
                 }
               ]
             }
@@ -254,6 +260,7 @@
             "type": "Microsoft.Compute.SizeSelector",
             "label": "Client node VM size",
             "toolTip": "Choose VM SKU, Standard D1, D2, D3",
+            "defaultValue": "Standard_D1",
             "recommendedSizes": [
               "Standard_D1",
               "Standard_D2",
@@ -261,7 +268,24 @@
             ],
             "constraints": {
               "allowedSizes": [],
-              "excludedSizes": []
+              "excludedSizes": [],
+              "allowedValues": [
+                "Standard_A0",
+                "Standard_A1",
+                "Standard_A2",
+                "Standard_A3",
+                "Standard_A4",
+                "Standard_A7",
+                "Standard_D1",
+                "Standard_D2",
+                "Standard_D3",
+                "Standard_D4",
+                "Standard_DS1",
+                "Standard_DS2",
+                "Standard_DS3",
+                "Standard_DS4",
+                "Standard_DS13"
+              ]
             },
             "osPlatform": "Linux",
             "imageReference": {
